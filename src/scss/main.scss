@@ -1,0 +1,79 @@
+// This is where you can import other stylesheets or write your scss code
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+$banner-color:rgb(122,68,254);
+
+h1, h2, h3, h5 {
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.navbar {
+    color: rgb(122, 68, 254) !important ;
+}
+
+.section-banner {
+    background: url(../images/lidye-1Shk_PkNkNw-unsplash.jpg);
+    background-position: bottom center;
+    height: 850px;
+
+    h1 {
+        font-size: 150px;
+        position: relative;
+        top: 300px;
+    }
+
+    h3 {
+        position: relative;
+        top: 300px;
+    }
+
+    button {
+        width: 150px;
+        position: relative;
+        top: 320px;
+        background-color: rgb(122, 68, 254);
+        color: white;
+    }
+}
+
+main {
+    h2 {
+        font-size: 64px;
+    }
+
+    img {
+        height: 70px;
+        width: 70px;
+       
+    }
+    p {
+        text-align: start;
+    }
+}
+
+.section-new {
+    h2 {
+        font-size: 72px;
+    }
+    background-color:rgb(122, 68, 254) ;
+
+   .col {
+    width: 25%;
+    margin-top:20px ;
+   }
+}
+
+.section-forms {
+    padding-top: 20px;
+    margin: auto;
+    text-align: center;
+
+    h2 {
+        font-size: 64px;
+    }
+
+    div,p {
+        text-align: start;
+    }
+}
+
